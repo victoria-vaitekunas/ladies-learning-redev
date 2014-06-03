@@ -1,0 +1,796 @@
+/*GLOBAL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+audio, canvas, video {
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+[hidden] {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+a:focus {
+  outline: thin dotted; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+a:active, a:hover {
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+h1 {
+  font-size: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+b, strong {
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+dfn {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+mark {
+  background: #ff0;
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+small {
+  font-size: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+sup {
+  top: -.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+sub {
+  bottom: -.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+img {
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+svg:not(:root) {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000343}}
+button, input {
+  line-height: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000344}}
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000344}}
+button[disabled], input[disabled] {
+  cursor: default; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000344}}
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000344}}
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000344}}
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000344}}
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000344}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000344}}
+body, figure {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000344}}
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000345}}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000348}}
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000355}}
+html {
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000358}}
+body {
+  font-family: Helvetica Neue, Helvetica, arial, sans-serif;
+  font-weight: 200;
+  line-height: 1.2;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000362}}
+h1 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: -41px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000367}}
+h2 {
+  margin: 0;
+  padding: 0 235px 0 0;
+  font-size: 3em;
+  font-family: Helvetica Neue, Helvetica, arial, sans-serif;
+  font-weight: 200;
+  line-height: 1.2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000373}}
+h3 {
+  margin: 0;
+  padding: 40px 0 0 0;
+  font-family: Helvetica Neue, Helvetica, arial, sans-serif;
+  font-weight: 200;
+  line-height: 1.2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000378}}
+h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.4em;
+  font-family: Helvetica Neue, Helvetica, arial, sans-serif;
+  font-weight: 200;
+  line-height: 1.2; }
+
+/*NAV~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\0000384}}
+.nav {
+  position: fixed;
+  float: left;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 230px;
+  background: black;
+  color: white;
+  padding-left: 43px;
+  padding-top: 90px;
+  -webkit-box-shadow: 5px 0 20px #777;
+  -moz-box-shadow: 5px 0 20px #777;
+  box-shadow: 5px 0 20px #777;
+  border-right: 5px solid #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003101}}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 100px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003105}}
+  .nav ul li {
+    padding: 3px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003108}}
+  .nav ul a {
+    text-decoration: none;
+    font-family: Helvetica Neue, Helvetica, arial, sans-serif;
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 1.2em;
+    color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003115}}
+.dash {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003118}}
+.nav li a:hover {
+  color: #c949c9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003120}}
+  .nav li a:hover .dash {
+    display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003124}}
+.socialmedia {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003127}}
+.icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  text-indent: -9999px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003132}}
+.icon:hover {
+  background-position: -32px 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003135}}
+.twitter {
+  background: url("images/icon-twitter-32x32.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003138}}
+.facebook {
+  background: url("images/icon-facebook-32x32.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003141}}
+.email {
+  background: url("images/icon-email-32x32.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003144}}
+.rss {
+  background: url("images/icon-rss-32x32.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003147}}
+.footer {
+  position: absolute;
+  bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003151}}
+.footer2 {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003154}}
+.copyright {
+  text-transform: uppercase;
+  line-height: 0.7;
+  font-size: 0.6em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003159}}
+.copyright span {
+  color: #808184; }
+
+/*BODY~HOMEPAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003163}}
+.wrapper {
+  width: calc(100% - 230px);
+  float: right;
+  padding-left: 50px;
+  padding-top: 265px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003169}}
+.events {
+  width: 130px;
+  float: left;
+  font-size: 1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003173}}
+  .events p {
+    color: #888; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003175}}
+    .events p:last-child {
+      color: #c949c9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003180}}
+.events:nth-child(2) {
+  margin: 0 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003183}}
+.events:last-child {
+  width: 145px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003187}}
+.arrow {
+  background: url("images/icon-cta-25x25.png");
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-indent: -9999px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003192}}
+  .arrow:hover {
+    background-position: -25px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003196}}
+.twitterwidget1 {
+  display: inline-block;
+  max-width: 25%;
+  padding-top: 90px;
+  padding-left: 1.7%;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  border-left: 1px solid grey;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003208}}
+.top {
+  width: calc(100% - 230px);
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003212}}
+.blurb p {
+  padding: 90px 60px 100px 50px;
+  font-size: 1.7em;
+  width: calc(100% - 230px);
+  float: left;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003219}}
+.wearelist {
+  width: 230px;
+  padding: 90px 0 0 15px;
+  float: right;
+  border-left: 1px solid #808184; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003224}}
+  .wearelist ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003227}}
+    .wearelist ul li {
+      color: #808184;
+      text-transform: lowercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003230}}
+      .wearelist ul li:first-child {
+        color: black;
+        font-size: 1.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003237}}
+.weare {
+  width: 100%;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003240}}
+  .weare ul {
+    list-style: none;
+    max-width: 100%;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003245}}
+    .weare ul li {
+      position: relative;
+      float: left;
+      padding: 0;
+      margin: 0;
+      display: block;
+      width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003255}}
+.aboutphoto > img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003260}}
+.aboutphoto > p {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 5px;
+  color: #c949c9;
+  margin: 0;
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003269}}
+.aboutphoto > h4 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  bottom: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003275}}
+.hovertext {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003278}}
+li:hover .hovertext {
+  display: block;
+  height: 330px;
+  width: 330px;
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  z-index: 45;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003290}}
+.hovertext h4,
+.hovertext img ~ p {
+  color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003293}}
+.hovertext h4 + p {
+  color: #c949c9;
+  padding: 0;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003298}}
+.aboutphoto:nth-child(4n) .hovertext,
+.aboutphoto:nth-child(4n-1) .hovertext {
+  left: -330px;
+  top: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003301}}
+.photo1 {
+  background: #c949c9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003303}}
+  .photo1:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003307}}
+.photo2 {
+  background: #30bcaf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003309}}
+  .photo2:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003313}}
+.photo3 {
+  background: #d76837; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003315}}
+  .photo3:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003319}}
+.photo4 {
+  background: #b0ca57; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003321}}
+  .photo4:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003325}}
+.photo5 {
+  background: #5693ca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003327}}
+  .photo5:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003331}}
+.photo6 {
+  background: #ed9a20; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003333}}
+  .photo6:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003337}}
+.photo7 {
+  background: #cfed11; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003339}}
+  .photo7:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003343}}
+.photo8 {
+  background: #c949c9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003345}}
+  .photo8:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003349}}
+.photo9 {
+  background: #b0ca57; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003351}}
+  .photo9:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003355}}
+.photo10 {
+  background: #0eae1d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003357}}
+  .photo10:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003361}}
+.photo11 {
+  background: #30bcaf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003363}}
+  .photo11:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003367}}
+.photo12 {
+  background: #ed9a20; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003369}}
+  .photo12:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003373}}
+.photo13 {
+  background: #cfed11; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003375}}
+  .photo13:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003379}}
+.photo14 {
+  background: #c949c9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003381}}
+  .photo14:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003385}}
+.photo15 {
+  background: #b0ca57; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003387}}
+  .photo15:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003391}}
+.photo16 {
+  background: #5693ca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003393}}
+  .photo16:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003397}}
+.photo17 {
+  background: #30bcaf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003399}}
+  .photo17:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003403}}
+.photo18 {
+  background: #d76837; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003405}}
+  .photo18:hover img {
+    opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003409}}
+.photo19 {
+  background: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003411}}
+  .photo19 img {
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003414}}
+  .photo19 h4 {
+    color: #c949c9;
+    font-size: 3em;
+    padding: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003420}}
+.centreforsocial {
+  padding: 90px 300px 90px 50px; }
+
+@media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003425}}
+  h2 {
+    font-size: 2.5em;
+    padding: 0 220px 0 0; } }
+@media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003431}}
+  .blurb p {
+    float: none;
+    width: 100%;
+    padding-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003436}}
+  .wearelist {
+    position: static;
+    float: none;
+    padding: 50px 0 100px 50px;
+    width: 100%;
+    font-size: 1.5em;
+    background: rgba(201, 73, 201, 0.4); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003444}}
+  .weare ul li {
+    width: 33.33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003447}}
+  .aboutphoto:nth-child(3n-2) .hovertext {
+    top: 0px;
+    left: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003450}}
+  .aboutphoto:nth-child(3n-1) .hovertext {
+    left: -330px;
+    top: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003453}}
+  .aboutphoto:nth-child(3n) .hovertext {
+    left: -330px;
+    top: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003456}}
+  .centreforsocial {
+    padding: 90px 50px; } }
+@media (max-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003461}}
+  h2 {
+    font-size: 2em;
+    padding: 0 150px 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003466}}
+  .events,
+  .events:last-child {
+    float: none;
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003470}}
+  .events:nth-child(2) {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003473}}
+  .twitterwidget1 {
+    position: static;
+    display: inline-block;
+    max-width: 100%;
+    padding: 50px 0 0 0;
+    border-left: 0;
+    color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003481}}
+  .twitter-timeline {
+    font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003484}}
+  .stream {
+    width: 100%;
+    color: white; } }
+@media (max-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003490}}
+  .weare ul li {
+    width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003494}}
+  .aboutphoto:nth-child(2n-1) .hovertext,
+  .aboutphoto:nth-child(2n) .hovertext {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003500}}
+  li:hover .aboutphoto + h4 {
+    display: none; } }
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003506}}
+  .nav {
+    position: relative;
+    float: none;
+    width: 100%;
+    height: 260px;
+    top: 0;
+    padding-left: 43px;
+    padding-top: 50px;
+    -webkit-box-shadow: 0 5px 20px #777;
+    -moz-box-shadow: 0 5px 20px #777;
+    box-shadow: 0 5px 20px #777;
+    border-bottom: 5px solid #fff;
+    border-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003520}}
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003524}}
+    .nav ul li {
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003526}}
+      .nav ul li a {
+        padding: 25px 15px;
+        float: left;
+        text-decoration: none;
+        font-family: Helvetica Neue, Helvetica, arial, sans-serif;
+        font-weight: 200;
+        line-height: 1.2;
+        font-size: 1.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003532}}
+        .nav ul li a:first-child {
+          padding-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003538}}
+  .wrapper {
+    width: 100%;
+    padding: 100px 20px 0 43px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003542}}
+  h2 {
+    width: 80%;
+    float: none;
+    padding: 0;
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003548}}
+  .footer,
+  .twitterwidget1 {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003551}}
+  .footer2 {
+    display: inline-block;
+    color: white;
+    background: black;
+    padding: 20px 20px 0 43px;
+    width: 100%;
+    height: 130px;
+    -webkit-box-shadow: 0 -5px 20px #777;
+    -moz-box-shadow: 0 -5px 20px #777;
+    box-shadow: 0 -5px 20px #777;
+    border-top: 5px solid #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003564}}
+  .top {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003567}}
+  .events:last-child {
+    padding: 0 0 40px 0; } }
+@media (max-width: 611px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003572}}
+  .nav ul li a {
+    padding: 10px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003574}}
+    .nav ul li a:first-child {
+      padding-top: 15px; } }
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003580}}
+  .weare ul li {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/vvaitekunas\/Documents\/hackeryou\/projects\/week\%203\/client\%20site\/style\.scss}line{font-family:\00003583}}
+  .blurb p {
+    font-size: 1.5em;
+    padding: 43px; } }
